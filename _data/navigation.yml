@@ -1,9 +1,7 @@
 sidebar-category:
-  - title: "카테고리"
+  - title: "Category"
     children:
-      - title: "블로그"
-        url: "/blog"
-      - title: "카테고리B"
-        url:  "/CategoryB"
-      - title: "카테고리C"
-        url:  "/CategoryC"
+      - title: "TIL"
+        url: "/til"
+      # - title:
+      #   url:
