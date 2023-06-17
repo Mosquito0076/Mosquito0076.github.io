@@ -107,15 +107,24 @@ analytics:
 
 # Site Author
 author:
-  name             : "진성현목"
+  name             : "Windy825 & Mosquito0076"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "자율주행을 공부하는 중"
   location         : "South Korea"
-  email            : "windy825@naver.com\nhsmk0076@naver.com"
+  email            : 
   links:
-    - label: "Email"
+    - label: "windy82581@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:windy82581@gmail.com"
+    - label: "windy825 GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://windy825.github.com/"
+    - label: "hsmk0076@naver.com"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hsmk0076@naver.com"
+    - label: "Mosquito0076 GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://Mosquito0076.github.com/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -125,9 +134,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
