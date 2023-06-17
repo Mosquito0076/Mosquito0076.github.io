@@ -27,7 +27,7 @@ description              : "자율주행 기술 블로그"
 url                      : "Mosquito0076.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/teaser.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -107,8 +107,8 @@ analytics:
 
 # Site Author
 author:
-  name             : "Windy825"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "Windy825 & Mosquito0076"
+  avatar           : "/assets/images/teaser.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "자율주행을 공부하는 중"
   location         : "South Korea"
   email            : 
@@ -118,26 +118,7 @@ author:
       url: "mailto:windy82581@gmail.com"
     - label: "GitHub (windy825)"
       icon: "fab fa-fw fa-github"
-      url: "https://windy825.github.com/"\
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-  name             : "Mosquito0076"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "자율주행을 공부하는 중"
-  location         : "South Korea"
-  email            : 
-  links:
+      url: "https://windy825.github.com/"
     - label: "Email (Mosquito0076)"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:hsmk0076@naver.com"
@@ -156,6 +137,7 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+
 
 # Site Footer
 footer:
