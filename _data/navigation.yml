@@ -3,5 +3,5 @@ sidebar-category:
     children:
       - title: "TIL"
         url: "/TIL"
-      # - title:
-      #   url:
+      - title: "Computer Vision"
+        url: "/CV"
