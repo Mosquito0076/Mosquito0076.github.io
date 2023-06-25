@@ -2,6 +2,6 @@ sidebar-category:
   - title: "Category"
     children:
       - title: "TIL"
-        url: "/TIL"
+        url: /categories/TIL
       - title: "Computer Vision"
-        url: "/CV"
+        url: /categories/CV

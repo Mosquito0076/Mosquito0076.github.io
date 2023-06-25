@@ -1,7 +1,10 @@
 ---
 title: "ComputerVision"
 layout: archive
-permalink: /CV
+permalink: /categories/CV
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 

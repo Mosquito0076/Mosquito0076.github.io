@@ -7,19 +7,40 @@ sidebar-category:
   - title: "Category"
     children:
       - title: "TIL"
-        url: "/TIL"
+        url: /categories/TIL
+      - title: "Computer Vision"
+        url: /categories/CV
 ```
 
 여기서 아래와 같이 작성하면 됨
 
 ```markdown
 	  - title: "{{ 보여줄 제목 }}"
-	    url: "{{ 추가로 나오게 할 sub url }}"
+	    url: "/categories/{{ 추가로 나오게 할 sub url }}"
 ```
 
 <br>
 
 2. `_pages`
+
+예시 : `category-CV.md`
+
+```markdown
+---
+title: "Category"
+layout: categories
+permalink: /categories/
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
+---
+
+
+{% assign posts = site.categories.CV %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
+```
+
+<br>
 
 `category-{{ 보여줄 제목 }}.md` 파일 생성 후 아래와 같이 작성
 
@@ -27,7 +48,10 @@ sidebar-category:
 ---
 title: "{{ 보여줄 제목 }}"
 layout: archive
-permalink: {{ 추가로 나오게 할 sub url }}
+permalink: /categories/{{ 추가로 나오게 할 sub url }}
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
@@ -59,3 +83,11 @@ categories:
 {{ 본문 내용 }}
 ```
 
+<br>
+
+---
+
+### 3. 사진 삽입
+
+- `assets/images` 폴더에 추가
+- url 양식은 `..\assets\images\{{ 파일 확장자 포함 전체 이름 }}`

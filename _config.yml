@@ -18,12 +18,12 @@ remote_theme : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : "mint" # "defalut" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "자율주행 연구공방"
+locale                   : "ko-KR"  # 블로그의 주요 언어. en-US 등
+title                    : "자율주행 연구공방" # 사이트 탭에서 보이는 이름입니다.
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "자율주행"
-description              : "자율주행 기술 블로그"
+subtitle                 : # site tagline that appears below site title in masthead / 화면 title 하단에 있는 소제목입니다.
+name                     : "자율주행" # 화면 하단 영역의 이름입니다.
+description              : "자율주행 기술 블로그" # 현재의 블로그 url
 url                      : "Mosquito0076.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -227,7 +227,7 @@ sass:
 
 
 # Outputting
-permalink: /:title/
+permalink: /:title/ # defalut : /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

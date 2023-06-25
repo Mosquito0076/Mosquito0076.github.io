@@ -1,7 +1,10 @@
 ---
 title: "TIL"
 layout: archive
-permalink: /TIL
+permalink: /categories/TIL
+author_profile: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 
